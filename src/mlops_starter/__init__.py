@@ -1,10 +1,10 @@
-"""Small examples for MLOps coursework."""
+"""Небольшие примеры для домашних заданий по MLOps."""
 
 
 def classify_number(value: int) -> str:
-    """Return whether an integer is positive, negative, or zero."""
+    """Определить знак числа (ноль пока не определился)."""
     if value > 0:
-        return "positive"
+        return "положительное"
     if value < 0:
-        return "negative"
-    return "zero"
+        return "отрицательное"
+    return "ноль — стоит на нейтральной полосе"
