@@ -1,8 +1,6 @@
-# MLOps Starter
+# MLOps HW
 
-Небольшой шаблон Python-проекта для домашних заданий по MLOps. Зависимостями
-управляет [uv](https://docs.astral.sh/uv/), стиль кода проверяет
-[Ruff](https://docs.astral.sh/ruff/), типы — [ty](https://docs.astral.sh/ty/).
+Шаблон Python-проекта для домашних заданий по MLOps.
 
 ## Структура
 
@@ -27,6 +25,3 @@ uv run ruff check .
 uv run ruff format --check .
 uv run ty check
 ```
-
-`uv.lock` фиксирует разрешённые версии зависимостей. После изменения списка
-зависимостей обновите его командой `uv lock` и добавьте файл в коммит.
