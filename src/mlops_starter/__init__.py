@@ -1,10 +1,1 @@
-"""Небольшие примеры для домашних заданий по MLOps."""
-
-
-def classify_number(value: int) -> str:
-    """Определить знак числа (ноль пока не определился)."""
-    if value > 0:
-        return "положительное"
-    if value < 0:
-        return "отрицательное"
-    return "ноль — стоит на нейтральной полосе"
+print("devops-dev+ml=mlops")
